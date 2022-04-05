@@ -123,42 +123,61 @@
   <br>
   
   <div class="content">
+    <div>
+        <input type="checkbox" id="question1" name="q"  class="questions">
+        <div class="plus">+</div>
+        <label for="question1" class="question">
+          Which region and city is being discussed?
+        </label>
+        <div class="answers">
+      Here, the region of concern is <a href="https://en.wikipedia.org/wiki/Geography_of_India">India.</a> The city mentioned is <a href="https://en.wikipedia.org/wiki/Ranchi#:~:text=Ranchi%20is%20located%20in%20the,the%20rest%20of%20the%20state.">Ranchi.</a> Ranchi is the Capital City of the state Jharkhand.
+    <div id="card_final">
+        <img src='img/map0.png' alt=' plot1' > 
+        <img src='img/map1.png' alt=''>
+        </div>
+      </div>
+      </div>
   <div>
-    <input type="checkbox" id="question1" name="q"  class="questions">
+    <input type="checkbox" id="question2" name="q"  class="questions">
     <div class="plus">+</div>
-    <label for="question1" class="question">
+    <label for="question2" class="question">
       At what time of the day are you likely to get affected with "Loo"?
     </label>
     <div class="answers">
-  "Loo" is a strong, hot, dusty and dry summer wind from the west which blows over North Indian Indo-Gangetic Plain.It is strong in the months of June but this year India has experienced hottest month of March in 122 years with 71% rain deficit.
+  "Loo" is a strong, hot, dusty and dry summer wind from the west which blows over North Indian Indo-Gangetic Plain.It is strong in the months of June but this year India has experienced hottest Summer in 122 years with 71% rain deficit.
    More than 1500 people die every year in India due to the heatwaves. The situation becomes alarming when the temperature rises upto 45 degree Celcius or 318.15K. <br>
-From the plots we infer, the time between <span style="color:brown;">11:00:00 to 14:00:00 </span>have its temperature variations lying in the range of 300 K to 320 K.
+From the plots we infer, the time between <span style="color:brown;">6:00:00 to 10:00:00 UTC or 11:30 A.M. to 2:30 P.M. </span>have its temperature variations lying in the range of 300 K to 320 K. Read more <a href="https://zeenews.india.com/india/this-march-is-indias-hottest-in-122-years-heatwave-likely-to-continue-2449978.html"> Here</a>
 <div id="card_final">
-    <img src='img/MP1.png' alt=' plot1' > 
-    <img src='img/MP2.png' alt=''>
-    <img src='img/MP3.png' alt=''>
-    <img src='img/MP4.png' alt=''></div>
+    <img src='Precise_regional_plots/r_6.png' alt=' plot1' > 
+    <img src='Precise_regional_plots/r_7.png' alt=''>
+    <img src='Precise_regional_plots/r_8.png' alt=''>
+    <img src='Precise_regional_plots/r_9.png' alt=''></div>
+  </div>
   </div>
   
-  <div>
-    <input type="checkbox" id="question2" name="q" class="questions">
-    <div class="plus">+</div>
-    <label for="question2" class="question">
-      Which regions of India are warm/hot even during the night time?
-    </label>
-    <div class="answers">
-      The regions of <span style="color:brown;">Deccan Plateau</span> are hottest during the midnight due to its geography. Being a plateau, the region experiences different patterns of land and sea breeze.
-      <div id="card_final">
-        <img src='REGIONAL_HOURLY/r0.png' alt=' plot1' > 
-        </div>
-      </div>
-    </div>
-  </div>
-    
   <div>
     <input type="checkbox" id="question3" name="q" class="questions">
     <div class="plus">+</div>
     <label for="question3" class="question">
+      Which regions of India has the highest difference in day/night temperatures?
+    </label>
+    <div class="answers">
+      The regions of <span style="color:brown;">Thar Desert</span> which is spread ove the states of Rajasthan and some
+      parts of Gujarat are hottest during the day due to rapid heating of sand .During the night, the sand cools down very fast and thus creating a huge temperature difference during the day and nighttime. Read <a href="https://www.britannica.com/place/Thar-Desert">MORE </a>
+      <div id="card_final">
+        <img src='Precise_regional_plots/REGIONAL_HOURLY/r0.png' alt=' plot1' >
+        <img src='img/thar.png' alt=' plot1' > 
+
+
+        </div>
+      </div>
+    </div>
+  
+    
+  <div>
+    <input type="checkbox" id="question4" name="q" class="questions">
+    <div class="plus">+</div>
+    <label for="question4" class="question">
       Can you display the list of temperatures for different hours on 24-03-2022?  
     </label>
     <div class="answers">
@@ -166,27 +185,44 @@ From the plots we infer, the time between <span style="color:brown;">11:00:00 to
       <br><div id="card_final">
         <img src='img/img (1).png' alt=' plot1' > 
         </div>
-    </div>
-  </div>
-  <div>
-    <input type="checkbox" id="question4" name="q" class="questions">
-    <div class="plus">+</div>
-    <label for="question4" class="question">
-    "Mahua", a kind of famous wine indegenous to Ranchi, Jharkhand requires a specific temperature for drawing the utmost alcohol content.
-    The optimum temperature ranges between 16 degree Celcius to 25 degree Celcius. What are the hours on that the day whenextreme care must be taken?   
-    </label>
-    <div class="answers">
-      Utmost care must be taken between<span style="color:brown;"> 4:00:00 to 13:00:00</span>
+        The above list is in UTC. This can be converted simply into IST(Indian Standard Time). The IST is 5 hours and 30 minutes ahead of UTC. For e.g. 4pm UTC is 9:30 P.M. in India. For simplicity, refer the table mentioned below.  
+        <div id="card_final">
+            <img src='img/im2.png' alt=' plot1' > 
+            </div>
     </div>
   </div>
   <div>
     <input type="checkbox" id="question5" name="q" class="questions">
     <div class="plus">+</div>
     <label for="question5" class="question">
+    "Mahua", a kind of famous wine indegenous to Ranchi, Jharkhand requires a specific temperature for drawing the utmost alcohol content.
+    The optimum temperature ranges between 16 degree Celcius to 25 degree Celcius. What are the hours on that the day whenextreme care must be taken?   
+    </label>
+    <div class="answers">
+      Utmost care must be taken between<span style="color:brown;"> 4:00:00 to 13:00:00</span>.ad more about the Mahua making process here
+      <div id="card_final">
+        <img src='img/mahu.png' alt=' plot1' > 
+        </div>
+    </div>
+  </div>
+  <div>
+    <input type="checkbox" id="question6" name="q" class="questions">
+    <div class="plus">+</div>
+    <label for="question6" class="question">
       Jharkhand is the "home of mines" in India. With several coal and iron mines, come huge migrated working human resource. What durations of the days would be most uncomfortable for the workers around mines?  
     </label>
     <div class="answers">
-      As per the table, the highest air temperatures are recorded during 8:00:00 and 9:00:00. Thus the workforce can begin after these hours. 
+      As per the table, the highest air temperatures are recorded during 8:00:00 and 9:00:00 (UTC) or 1:30 P.M. and 2:30 P.M. Thus the workforce can begin after these hours. 
+    </div>
+  </div>
+  <div>
+    <input type="checkbox" id="question7" name="q" class="questions">
+    <div class="plus">+</div>
+    <label for="question7" class="question">
+      Jharkhand is the "home of mines" in India. With several coal and iron mines, come huge migrated working human resource. What durations of the days would be most uncomfortable for the workers around mines?  
+    </label>
+    <div class="answers">
+      As per the table, the highest air temperatures are recorded during 8:00:00 and 9:00:00. Thus the workforce can resume after these hours. 
     </div>
   </div>
   
